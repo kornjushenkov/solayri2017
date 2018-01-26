@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30542f80-40de-4e08-b560-3d3bdc177cb6">
+  <producedTypes>
+    <objectType typeId="31ee3016-9c71-4ca7-9470-46734f5f50ba" valueTypeId="f4be7b9e-4917-425a-b29a-94f6a17ce972"/>
+    <refType typeId="528ecad2-aa13-433e-bc08-edab6fb0c132" valueTypeId="7299c2da-e66e-4a3e-ba92-e665524fbd3e">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="7650ed73-437e-4738-975d-83540d408035" valueTypeId="0b903101-8f56-4586-8701-dd48697ba612"/>
+    <listType typeId="873dc447-a41e-42fd-a93b-c15bfc458a26" valueTypeId="b646a408-8b14-4dd9-9240-b20ed4f6545c"/>
+    <managerType typeId="edf61628-e7a9-4e06-8c7b-45bbe419e7d1" valueTypeId="c487097b-49f3-40ed-b084-51d1d7e0a4e8"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7728c71e-6e3e-4b46-956b-d712eb3e00a0">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afd9d4a0-015a-42d3-b983-7097f9018975">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3194e0e3-8766-43ef-b25a-e3f41e1afbdf">
+    <producedTypes>
+      <objectType typeId="a0e38ba3-d697-4a05-a239-e0bde7e1a6be" valueTypeId="57b3b4c1-ed2a-48ad-9603-6e68de11fd2a"/>
+      <rowType typeId="f6dcbde8-e5d9-4691-b2fd-089717129307" valueTypeId="1246bad7-c761-4a8c-b79e-fa37bdd758f8"/>
+    </producedTypes>
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <attributes uuid="b28466f0-021c-4651-a9df-1b999f138c4c">
+      <name>НазваниеЦены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название цены</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="fd75686d-7bbd-4ab5-acac-1573679a8d3b">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5c90a4cc-e30e-4733-906b-afac8e3ecaff">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
