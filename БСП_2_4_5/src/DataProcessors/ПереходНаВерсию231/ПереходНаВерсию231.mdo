@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="173f031f-be9c-4cb0-a336-c4fccf13ae87">
+  <producedTypes>
+    <objectType typeId="53b4eb82-86ab-4f45-b5a4-15f95a47d10e" valueTypeId="f427b4c5-a2cd-41f6-9f4f-4438867f0306"/>
+    <managerType typeId="aa0a9bce-0758-42a7-ad4b-95a6d5235d52" valueTypeId="fd285353-a105-492d-b55e-d051e6c60eaf"/>
+  </producedTypes>
+  <name>ПереходНаВерсию231</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход на версию 2.3.1</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПереходНаВерсию231.Form.Форма</defaultForm>
+  <forms uuid="d5ee94f0-eabb-4c6e-9e16-0e1cdac65916">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b30441ba-da90-46ea-8dfe-f06253319b1e">
+    <name>ПереходНаВерсию231</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход на версию 2.3.1</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cfa65ec-4676-4f8f-88d6-d9aefc9547ff">
+  <name>БазоваяФункциональностьБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность Интернет-поддержки</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonForm.ИнтернетПоддержкаПользователейОшибкаДоступаКИнтернету</content>
+  <content>308e3fad-1f75-42bc-9f46-cd964a3e15bc</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователей</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейВнимание</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейИнформация</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейНаДокументации</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейНаКомпактДиске</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейНаКоробке</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейОтправкаПисьма</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейПинКод</content>
+  <content>CommonPicture.ИнтернетПоддержкаПользователейПредупреждение</content>
+  <content>c806a6e0-1633-4354-99dd-bd6bc3ff6a74</content>
+  <content>b613a047-140b-49ae-a334-6f56b7e68fcf</content>
+  <content>DataProcessor.БазовыеФункцииИнтернетПоддержки</content>
+  <content>InformationRegister.УдалитьПараметрыИнтернетПоддержкиПользователей</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователей</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейВызовСервера</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиент</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентСервер</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейСлужебныйПовтИсп</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБИП</content>
+  <content>Role.БазовыеПраваИПП</content>
+  <content>Role.ПодключениеКСервисуИнтернетПоддержки</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейСлужебныйКлиентПовтИсп</content>
+  <content>Constant.ДоменРасположенияСерверовИПП</content>
+  <content>CommonForm.ПодключениеИнтернетПоддержки</content>
+  <content>CommonModule.КлиентЛицензированияГлобальный</content>
+  <content>CommonModule.КлиентЛицензированияКлиент</content>
+  <content>CommonModule.КлиентЛицензирования</content>
+  <content>CommonModule.КлиентЛицензированияВызовСервера</content>
+  <content>SessionParameter.ПараметрыКлиентаНаСервереБИП</content>
+  <content>Constant.СвойстваБИП</content>
+  <content>c972d11c-7fd4-4b3c-af06-7f3943b1228b</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca530fa2-8c3b-481a-b591-ead6d4416e3c">
+  <name>SuppliedDataProcessor</name>
+  <synonym>
+    <key>ru</key>
+    <value>Supplied data processor</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.1c.ru/SaaS/SuppliedData/SuppliedDataProcessor</namespace>
+</mdclass:XDTOPackage>

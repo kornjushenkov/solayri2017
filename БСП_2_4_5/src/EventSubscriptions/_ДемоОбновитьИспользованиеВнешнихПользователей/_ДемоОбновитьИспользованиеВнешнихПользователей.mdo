@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32133a73-c7b3-462e-95b2-46f70deea87c">
+  <name>_ДемоОбновитьИспользованиеВнешнихПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обновить использование внешних пользователей</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule._ДемоСвойства._ДемоОбновитьИспользованиеВнешнихПользователейПриЗаписи</handler>
+</mdclass:EventSubscription>

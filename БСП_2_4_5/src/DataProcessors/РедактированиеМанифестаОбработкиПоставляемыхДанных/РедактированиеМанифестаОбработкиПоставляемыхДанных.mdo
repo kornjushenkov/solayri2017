@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec9d676-7c0f-4a8e-927c-870458dacf8c">
+  <producedTypes>
+    <objectType typeId="932f1682-afd9-4680-b9a6-1f00208e36e2" valueTypeId="578da022-a3a7-4e88-ae28-a17fb28e0780"/>
+    <managerType typeId="124e4f16-2aa4-4e61-a632-bb6c6d178c60" valueTypeId="fb6cdb2d-413e-40cf-84cf-c174d8d019be"/>
+  </producedTypes>
+  <name>РедактированиеМанифестаОбработкиПоставляемыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование манифеста обработки поставляемых данных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.РедактированиеМанифестаОбработкиПоставляемыхДанных.Form.Форма</defaultForm>
+  <forms uuid="15131e4b-5275-4e95-b4b8-f83b02594ac8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a695b85d-716f-4c36-8250-b88d6131117b">
+    <name>ВидДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид данных</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="47ffb0ef-2e01-45ae-92bb-ed3a78fe8532">
+    <name>XDTOСтарыхВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>XDTO старых версий</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="5d5dbf7e-5ec0-43d8-9649-89a4d2116646">
+    <name>РедактированиеМанифестаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование манифеста обработки</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Редактирование манифеста обработки поставляемых данных</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

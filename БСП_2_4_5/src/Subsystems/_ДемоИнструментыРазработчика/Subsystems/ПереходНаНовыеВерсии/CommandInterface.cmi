@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ПереходНаВерсию241.Command.ПереходНаВерсию241</commands>
+      <commands>0:9c628c63-8f32-409c-b95a-ab0cc15ec883</commands>
+      <commands>DataProcessor.ПереносЗамеровВремени.Command.ОценкаПроизводительности</commands>
+      <commands>DataProcessor.ПереходНаВерсию232.Command.ПереходНаВерсию232</commands>
+      <commands>DataProcessor.ПереходНаВерсию231.Command.ПереходНаВерсию231</commands>
+      <commands>DataProcessor.ПереносВариантовОтчетов.Command.ПереносВариантовОтчетов</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

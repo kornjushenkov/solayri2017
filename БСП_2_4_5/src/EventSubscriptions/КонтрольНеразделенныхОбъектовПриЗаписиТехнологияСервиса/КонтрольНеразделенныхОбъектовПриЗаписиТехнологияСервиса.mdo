@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a6ff5e6-eae2-4c87-9e96-81a97e121e49">
+  <name>КонтрольНеразделенныхОбъектовПриЗаписиТехнологияСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных объектов при записи технология сервиса</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ConstantValueManager.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.СинхронизироватьДанныеСПриложениемВИнтернетеПриЗавершенииРаботыПрограммы</types>
+    <types>ConstantValueManager.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</types>
+    <types>ConstantValueManager.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.КонечнаяТочкаМенеджераСервиса</types>
+    <types>ConstantValueManager.ВнешнийАдресУправляющегоПриложения</types>
+    <types>CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager.РазрешитьВыполнениеДОИОРегламентнымиЗаданиямиВМоделиСервиса</types>
+    <types>ConstantValueManager.АдресДляВосстановленияПароляУчетнойЗаписи</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</types>
+    <types>ConstantValueManager.ИспользоватьЭлектроннуюПодписьВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользоватьАвтономнуюРаботуВМоделиСервиса</types>
+    <types>ConstantValueManager.АдресКриптосервиса</types>
+    <types>ConstantValueManager.ИспользованиеКаталогаРасширенийВМоделиСервиса</types>
+    <types>ConstantValueManager.НезависимоеИспользованиеРасширенийВМоделиСервиса</types>
+    <types>ConstantValueManager.АдресСервисаПодключенияЭлектроннойПодписиВМоделиСервиса</types>
+    <types>ConstantValueManager.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</types>
+    <types>CatalogObject.ОбщиеВнешниеКомпоненты</types>
+    <types>ConstantValueManager.ВнутреннийАдресМенеджераСервиса</types>
+    <types>CatalogObject.ПоставляемыеРасширения</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервиса.КонтрольНеразделенныхОбъектовПриЗаписи</handler>
+</mdclass:EventSubscription>
