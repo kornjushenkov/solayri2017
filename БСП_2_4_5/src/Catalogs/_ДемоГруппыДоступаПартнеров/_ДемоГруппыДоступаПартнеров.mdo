@@ -155,7 +155,7 @@
       <key>ru</key>
       <value>Группа доступа</value>
     </synonym>
-    <comment></comment>
+    <comment>тест доработки</comment>
     <type>
       <types>CatalogRef._ДемоГруппыДоступаПартнеров</types>
     </type>
